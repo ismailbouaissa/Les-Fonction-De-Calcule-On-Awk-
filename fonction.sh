@@ -32,3 +32,20 @@ awk "BEGIN { print \"affichage des noms \" }"
 
 awk "BEGIN { print \"afficher tout les colonnes des noms\" }"
 awk '{print $0}' nomawk
+
+
+awk "BEGIN { print \"afficher la colonne des num d'etudiente\" }"
+awk '{print $1}' nomawk
+
+
+awk "BEGIN { print \"afficher le colonne des nom\" }"
+awk '{print $2}' nomawk
+
+
+
+awk "BEGIN { print \"afficher le colonne des prenom\" }"
+awk '{print $3}' nomawk
+
+
+awk "BEGIN { print \"afficher le colonne des cne\" }"
+awk '{print $4}' nomawk
